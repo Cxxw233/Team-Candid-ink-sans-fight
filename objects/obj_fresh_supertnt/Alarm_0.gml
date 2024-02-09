@@ -1,0 +1,16 @@
+if(instance_exists(obj_soul))
+{
+if(collision_rectangle(x-50,y-50,x+50,y+50,obj_soul,0,1))
+{
+if(obj_soul.x>x){obj_soul.hspeed=9}
+if(obj_soul.x<x){obj_soul.hspeed=-9}
+if(obj_soul.y>y){obj_soul.vspeed-=9}
+if(obj_soul.y<y){obj_soul.vspeed+=9}
+with(obj_soul){event_user(10)}
+}
+}
+repeat(20)
+{
+instance_create_depth(x,y,depth,obj_fresh_tnt_eff)
+}
+instance_destroy()

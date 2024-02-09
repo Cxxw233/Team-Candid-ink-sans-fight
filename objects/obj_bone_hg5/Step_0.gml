@@ -1,0 +1,14 @@
+image_angle+=4
+if(xt=0)
+{
+image_alpha=1
+}
+if(xt=1)
+{
+a++
+image_alpha-=a*0.1
+if(image_alpha<=0)
+{
+instance_destroy()
+}
+}

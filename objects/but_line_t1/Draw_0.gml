@@ -1,0 +1,10 @@
+draw_set_color(c_orange)
+draw_set_alpha(1)
+draw_rectangle(x+3,global.iy-5,x-5,global.ih+5,0)
+if(collision_rectangle(x+1,global.iy-5,x-1,global.ih+5,obj_soul,1,1))
+{
+with(obj_soul)
+{
+event_user(12)
+}
+}

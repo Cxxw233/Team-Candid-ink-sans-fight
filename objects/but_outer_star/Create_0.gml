@@ -1,0 +1,10 @@
+xt=0
+a=0
+b=0
+c=0
+d=0
+xxt=0
+alarm[0]=1
+set=0
+alam=0
+ang=choose(-3,3)

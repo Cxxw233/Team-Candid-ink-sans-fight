@@ -1,0 +1,9 @@
+vspeed=14
+xt=0
+sca=1
+image_speed=0
+obj=instance_create_depth(x,y,depth,obj_angel_egg)
+obj1=instance_create_depth(x,y+10,depth,obj_angel_egg)
+image_xscale=0.8
+image_yscale=0.8
+flo=1

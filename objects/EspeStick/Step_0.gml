@@ -1,0 +1,64 @@
+if(xt=0)
+{
+	c++
+	if(c=time1)
+	mode="on"
+	if(mode="on")
+	{
+	a++
+	image_index=7
+	mk1=instance_create_depth(x,y,0,EspeStick)
+	mk1.xt=1
+	mk1.image_index=3
+	mk1.vspeed=vspeed
+	mk1.hspeed=hspeed
+	mk1.speed=speed
+	mk1.image_angle=image_angle
+	mk2=instance_create_depth(x,y,0,EspeStick)
+	mk2.xt=2
+	mk2.image_index=4
+	mk2.vspeed=vspeed
+	mk2.hspeed=hspeed
+	mk2.speed=speed
+	mk2.image_angle=image_angle
+	if(a=time2)
+	{
+		mk1.mode="on"
+		mk2.mode="on"
+	}
+	}
+}
+if(xt=1)
+{
+if(mode="on")
+{
+a++
+if(a=5)
+{
+repeat(30)
+{
+i++
+x-=12//*(i-1)
+image_xscale=i
+}
+}
+}
+}
+if(xt=2)
+{
+if(mode="on")
+{
+a++
+if(a=5)
+{
+repeat(30)
+{
+i++
+x+=12//*(i-1)
+image_xscale=i
+}
+}
+}
+}
+if (x > 900 || x < -300 || y > 800 || y < -300)
+    instance_destroy()

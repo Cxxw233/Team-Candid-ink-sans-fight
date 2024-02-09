@@ -1,0 +1,13 @@
+audio_stop_all()
+easing_execute(id,"x",0,0,x,global.iw-x,30)
+alarm[0]=40
+xt="noone"
+a=0
+image_xscale=4
+image_yscale=4
+image_speed=0
+line_x=0
+yy=0
+OBJ=0
+ang=0
+col=global.blue

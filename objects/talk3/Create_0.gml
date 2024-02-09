@@ -1,0 +1,17 @@
+talk=obj_system.talk
+a=1
+b=0
+xs=1
+ys=1
+xx=0
+yy=0
+fnt=fnt_menu;
+time=1
+alpha=1
+color=c_white
+sleep=0
+gmm=0
+temp=0;
+xsep=0;
+_h=0;
+offset_x = 0;

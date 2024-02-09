@@ -1,0 +1,15 @@
+xt=0
+image_xscale=1
+image_yscale=1
+a=-10
+bb=0
+bt=1
+xxxt=0
+time=8
+c=0
+image_alpha=1
+idealx=0
+idealy=0
+nowag=0
+xtment=0
+image_speed=0.6

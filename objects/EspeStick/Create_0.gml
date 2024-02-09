@@ -1,0 +1,12 @@
+depth = -1020
+image_xscale = 2
+image_yscale = 2
+xt=0
+a=0
+c=0
+d=0
+image_speed=0
+mode=0
+time1=0
+time2=0
+i=1

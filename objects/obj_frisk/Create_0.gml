@@ -1,0 +1,21 @@
+image_speed=0
+color=0;
+colora=0;
+image_alpha=1
+/*if(file_exists("savedata.ini"))
+{
+	ini_open("savedata.ini");
+	if(ini_read_real("System","area",false)){
+		room_goto(Room_battle)
+	};
+	ini_close();
+}*/
+if(file_exists("temp"))
+{
+	room_goto(Room_battle)
+}
+
+else
+{
+alarm[0]=1
+}

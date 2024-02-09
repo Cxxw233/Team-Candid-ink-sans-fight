@@ -1,0 +1,1 @@
+if(image_alpha<=0.1) then instance_destroy();

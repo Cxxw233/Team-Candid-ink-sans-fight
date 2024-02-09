@@ -1,0 +1,1 @@
+if(y>global.ih){y=global.ih;gravity=0;vspeed=0}

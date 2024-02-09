@@ -1,0 +1,19 @@
+if(xt=1)
+{
+image_angle+=2
+}
+if(xt=2)
+{
+image_angle-=2
+}
+#region wssb
+	/*nt++;
+	if(nt%6==0){
+		inst=instance_create_depth(x,y,depth,empty);
+		inst.sprite_index=sprite_index;
+		inst.image_xscale=image_xscale;
+		inst.image_yscale=image_yscale;
+		inst.image_angle=image_angle;
+		easing_execute(inst,"image_alpha",0,0,1,-1,18);
+	}*/
+#endregion

@@ -1,0 +1,13 @@
+a=0
+xt=0
+yy=0
+alpha=0
+shenxt=0
+image_alpha=0
+image_xscale=0
+image_yscale=0  
+gx=0
+xxx=0
+xxx1=0
+yyy=0
+yyy1=0

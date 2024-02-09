@@ -1,0 +1,10 @@
+if(show_debug){
+	draw_set_alpha(1);draw_set_color(c_yellow);draw_set_font(fnt_menu);
+	draw_text(50,50,string(_lang)+
+	"\n"+string(lang_load_quick())+
+	"\n"+"next="+string(next)+
+	"\n"+"selected="+string(selected)+
+	"\n"+"selected3="+string(selected3)+
+	"\n"+"set="+string(set)+
+	"\n"+"temp="+string(temp));
+};

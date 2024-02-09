@@ -1,0 +1,9 @@
+image_blend=c_white;
+image_alpha=1;
+xt=0;
+xtt=60;
+xs=5;ys=5;
+//xta=0;
+image_xscale=1+(xs/12);image_yscale=1+(ys/12);
+alarm[0]=xtt;
+audio_play_sound(snd_waring,0,0);

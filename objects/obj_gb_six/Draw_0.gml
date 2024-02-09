@@ -1,0 +1,24 @@
+/*
+draw_set_halign(fa_right)
+draw_set_valign(fa_top)
+draw_set_font(fnt_debug)
+draw_text_colour(630,10,
+string_hash_to_newline(
+string("x=")+string(x)
++string("#")+string("y=")+string(y)
++string("#")+string("_x=")+string(_x)
++string("#")+string("_y=")+string(_y)
++string("#")+string("_xstart=")+string(_xstart)
++string("#")+string("_ystart=")+string(_ystart)
++string("#")+string("xt=")+string(xt)
++string("#")+string("tl1=")+string(tl1)
++string("#")+string("_angle=")+string(_angle)
++string("#")+string("_anglestart=")+string(_anglestart)
++string("#")+string("image_angle=")+string(image_angle)
++string("#")+string("obj=")+string(instance_number(all)))
+,c_yellow,c_yellow,c_blue,c_red,1
+)
+if keyboard_check_pressed(ord("K"))
+xt++
+*/
+draw_self()

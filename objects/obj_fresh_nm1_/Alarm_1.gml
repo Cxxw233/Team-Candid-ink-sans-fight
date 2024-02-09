@@ -1,0 +1,12 @@
+if(color=c_red)
+{
+color=c_orange
+}
+else
+{
+if(color=c_orange)
+{
+color=c_red
+}
+}
+alarm[1]=3

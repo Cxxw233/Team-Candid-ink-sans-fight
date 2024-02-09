@@ -1,0 +1,16 @@
+if(xt=1)
+{
+image_angle+=3
+}
+if(xt=2)
+{
+image_angle-=3
+}
+if(image_xscale<0.75)
+{
+image_xscale+=0.05
+}
+if(image_yscale<0.75)
+{
+image_yscale+=0.05
+}

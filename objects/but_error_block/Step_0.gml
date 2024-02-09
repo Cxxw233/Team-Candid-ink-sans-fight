@@ -1,0 +1,29 @@
+if(xt==0){
+	image_blend=c_yellow;
+};
+if(xt==1){
+	image_blend=c_red;
+};
+if(xt==2){
+	image_blend=c_aqua;
+};
+if(xt==3){
+	image_blend=c_orange;
+};
+if(xt==4){
+	a+=irandom_range(0.2,2.0)
+	if(a%10==0) then image_blend=make_color_rgb(irandom(255),irandom(255),irandom(255));
+};
+if(xt==5){
+	a+=irandom_range(0.2,2.0)
+	image_blend=a*20;
+};
+if(xt==6){
+	image_blend=global.blue;
+};
+if(xt==7){
+	image_blend=global.cc
+};
+if(xt==8){
+	image_blend=irandom_range(c_white,c_black)
+};
